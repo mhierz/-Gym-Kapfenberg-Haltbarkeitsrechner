@@ -1,4 +1,6 @@
-﻿namespace _Gym_Kapfenberg__Haltbarkeitsrechner
+﻿using System;
+
+namespace _Gym_Kapfenberg__Haltbarkeitsrechner
 {
     internal class Program
     {
