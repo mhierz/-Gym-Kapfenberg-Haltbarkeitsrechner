@@ -22,7 +22,7 @@ namespace _Gym_Kapfenberg__Haltbarkeitsrechner
      * Write a program that calculates how many months a medicine can be stored.
      */
 
-    /* Aufgabenstellung 2:
+    /* Task 2:
      * Extend the program in such a way that at the end (after the calculation)
      * the user gets asked whether the program should be restarted.
      * If the answer is (yes || y || Y || Yes), repeat the program.
@@ -44,6 +44,7 @@ namespace _Gym_Kapfenberg__Haltbarkeitsrechner
 
     // Formel zur Berechnung des neuen Wirkstoffgehalts: Wirkstoffgehalt = Wirkstoffgehalt * (1 - (Wirkstoffverlust / 100))
     // Formular for calculation of the new potency: Potency = Potency * (1 - (Decrease / 100))
+
     {
         static void Main(string[] args)
         {
