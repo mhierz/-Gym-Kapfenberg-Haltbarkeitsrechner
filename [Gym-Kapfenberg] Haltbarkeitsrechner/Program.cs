@@ -45,12 +45,17 @@ namespace _Gym_Kapfenberg__Haltbarkeitsrechner
     // Formel zur Berechnung des neuen Wirkstoffgehalts: Wirkstoffgehalt = Wirkstoffgehalt * (1 - (Wirkstoffverlust / 100))
     // Formular for calculation of the new potency: Potency = Potency * (1 - (Decrease / 100))
 
+    //Benutze diese Anweisung um den Wirkstoffgehalt einmal pro Schleifendurchgang auszugeben:
+    //Console.WriteLine("Monat: " + month + "\tWirkstoffgehalt: " + actualPotency);
+
+    //Frage mit dieser Anweisung nach der Wiederholung des Programms:
+    //Console.WriteLine("Soll das Programm wiederholt werden? [Ja || J]");
     {
         static void Main(string[] args)
         {
             string? input = string.Empty; //Variable zum Einlesen eines Inputs
             double decrease = 0.0; //Diese Variable beinhaltet den Prozentwert (in Prozent), welcher angibt, wieviel Prozent des Wirkstoffs pro Monat verloren geht
-            double actualContent = 100; //Diese Variable beinhaltet den aktuellen Wirkstoffgehalt der Arznei (in Prozent)
+            double actualPotency = 100; //Diese Variable beinhaltet den aktuellen Wirkstoffgehalt der Arznei (in Prozent)
             int month = 0; //Diese Variable beinhaltet den aktuellen Monat der Berechnung
             
 
